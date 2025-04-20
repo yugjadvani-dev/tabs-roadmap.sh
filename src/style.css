@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.tabs {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    flex-direction: column;
+    background-color: WHITE;
+    padding: 60px;
+    border-radius: 30px;
+    gap: 3rem;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+button.tab-list-btn.active {
+    background-color: yellow;
+}
